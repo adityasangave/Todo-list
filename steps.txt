@@ -1,0 +1,8 @@
+1. create folder named app
+2. create docker image
+3. Create requirements.txt
+4. Run "docker build ."
+5. Create docker-compose.yml
+6. run "docker-compose build"
+7. create django project on our docker image 
+8. Run docker-compose run app sh -c "django-admin startproject app ."
