@@ -1,8 +1,33 @@
-1. create folder named app
-2. create docker image
-3. Create requirements.txt
-4. Run "docker build ."
-5. Create docker-compose.yml
-6. run "docker-compose build"
-7. create django project on our docker image 
-8. Run docker-compose run app sh -c "django-admin startproject app ."
+Section 1:
+Creating peojcet adn enabling docker 
+1. Create a git repo and clone it to local environment
+2. create folder named app
+3. create docker image
+4. Create requirements.txt
+5. Run "docker build ."
+6. Create docker-compose.yml
+7. run "docker-compose build"
+8. create django project on our docker image 
+9. Run docker-compose run app sh -c "django-admin startproject app ." git push
+10. Run "docker-compose up" our app is started
+
+Section 2:
+Explain and Write something about test Driven development
+How to write test in django
+
+Section 3:
+1. Creating django app called api
+2. Run docker-compose run app sh -c "python manage.py startapp api"
+3. add our app in settings.py also ad rest_framework
+4. delete already existing tests.py file and create tests folder in our api app, create init.py and create file called test_model.py and write test to test our test_model
+5. Create our Task model, registering model
+6. Run migrate and makemigrations
+7. Run docker-compose run app sh -c "python manage.py test" make sure the test pass
+8.git push
+
+section 4:
+Performing CRUD Operations
+1.Write tests for different CRUD operations like list task, create task, delete task, update task, list details of task
+2. Writing serializer
+3. Writing different views 
+4.specifying urls for api
